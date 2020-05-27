@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: forma-djr-display, sans-serif;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebedef+0,edf0f1+51,f7f8f8+100 */
+    background: #ebedef; /* Old browsers */
+    background: -moz-linear-gradient(left,  #ebedef 0%, #edf0f1 51%, #f7f8f8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #ebedef 0%,#edf0f1 51%,#f7f8f8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #ebedef 0%,#edf0f1 51%,#f7f8f8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebedef', endColorstr='#f7f8f8',GradientType=1 ); /* IE6-9 */
+}
+
+a {
+    text-decoration: none;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+input:focus, textarea:focus, button:focus {
+    outline: none;
+    box-shadow: none;
+}
+button:focus, input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.full-height {
+    height: 100vh;
+}
+.color-red {
+    color: #6C1C18 !important;
+}
+.color-white {
+    color: #fff !important;
+}
+.color-green {
+    color: #183F38 !important;
+}
+.color-offWhite {
+    color: #DED8CC !important;
+}
+.color-yellow {
+    color: #D6B548 !important;
+}
+.color-blue {
+    color: #243465 !important;
+}
+.color-gray {
+    color: #e5e5e5 !important;
+}
+.bg-gray {
+    background-color: #e5e5e5 !important;;
+}
+.bg-red {
+    background-color: #6C1C18 !important;
+}
+.bg-green {
+    background-color: #183F38 !important;
+}
+.bg-offWhite {
+    background-color: #DED8CC !important;
+}
+.bg-yellow {
+    background-color: #D6B548 !important;
+}
+.bg-blue {
+    background-color: #243465 !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+.first-screen {
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+}
+.countdown {
+    font-size: 55vw;
+    margin-left: -5vw;
+    letter-spacing: -2vw;
+    line-height: 1;
+    color: #000;
+    font-style: italic;
+    text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
+}
+.countdown .dots {
+    display: inline-block;
+    margin-left: -2vw;
+    letter-spacing: -3.7vw;
+}
+.first-step, .second-step, .third-step {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.third-step {
+    opacity: 0;
+    z-index: 3;
+}
+.first-screen  .title {
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 100;
+    display: none;
+}
+.first-screen  .title .color-yellow {
+    font-weight: bold;
+} 
+.first-screen .brand-logo {
+    width: 322px;
+}
+
+@media(max-width: 767px){
+    .countdown {
+        text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+    }
+    .first-screen .brand-logo {
+        width: 250px;
+    }
+    .first-screen  .title {
+        font-size: 24px;
+    }
+}
+@media(max-width: 480px){
+    .first-screen  .title {
+        font-size: 20px;
+    }
+}
